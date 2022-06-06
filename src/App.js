@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link, Route, Routes } from 'react-router-dom'
 import { Layout, Typography, Space } from 'antd'
-import { Navbar, HomePage, Exchanges, Cryptocurrencies, CryptoDetails, News } from './components'
+import { HomePage, Exchanges, Cryptocurrencies, CryptoDetails, News } from './components'
 import './App.css'
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
