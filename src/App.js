@@ -1,8 +1,22 @@
 import React from 'react'
+import { Link, Route, Routes } from 'react-router-dom'
+import { Layout, Typography, Space } from 'antd'
+import {NavBar} from './components'
+import './App.css'
 
 const App = () => {
   return (
-    <h1>Crypto Verse</h1>
+    <div className='app'>
+        <div className='navbar'>
+            <NavBar/>
+        </div>
+        <div className='main'>
+
+        </div>
+        <div className='footer'>
+
+        </div>
+    </div>
   )
 }
 
